@@ -42,6 +42,11 @@
         "description": "Your user ID as an integer.",
         "required": false,
         "value": "6898413162"
+          },
+      "BOT_USERNAME": {
+        "description": "Your user ID as an integer.",
+        "required": false,
+        "value": "@Miss_BrokenX_Bot"
       },
       "SUPPORT_GROUP": {
         "description": "Your Telegram support group chat username where users can contact in case of a problem..",
