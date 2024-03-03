@@ -14,7 +14,7 @@ class Config:
     BOT_TOKEN = config("BOT_TOKEN", default=None)
     API_ID = int(config("API_ID", default="123"))
     API_HASH = config("API_HASH", default=None)
-    BOT_USERNAME = int(config("BOT_USERNAME" , default="TEST_BOT_VHAK_BOT"))
+    BOT_USERNAME = int(config("BOT_USERNAME" , default=None)
     OWNER_ID = int(config("OWNER_ID", default=6898413162))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
     DEV_USERS = [
