@@ -4,6 +4,7 @@ apscheduler==3.10.4
 asyncio==3.4.3
 telegraph
 gtts
+pydub
 wget
 future==0.18.3
 youtube-search-python
