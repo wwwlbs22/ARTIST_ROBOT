@@ -11,10 +11,10 @@ from telegram import (
 )
 from telegram.ext import CallbackQueryHandler, ContextTypes, InlineQueryHandler
 
-from BADMUNDA.bot_class import BAD, DB_NAME, MONGO_DB, function
+from BADMUNDA.bot_class import BAD, DB_NAME, DB_URI, function
 
 # Initialize MongoDB client
-client = MongoClient(MONGO_DB)
+client = MongoClient(DB_URI)
 db = client[DB_NAME]
 collection = db["whispers"]
 
