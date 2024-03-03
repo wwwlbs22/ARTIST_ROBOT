@@ -56,4 +56,4 @@ def group_status(client, message):
 
 #########
 
-""" ***                                                                       
+"" *** BAD""                                                                       
