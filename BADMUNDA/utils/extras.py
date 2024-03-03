@@ -640,8 +640,8 @@ NO       NO   NONONO            NONO
 ]
 
 StartPic = [
-    "https://graph.org/file/40ce67d14a3f5a7136090.jpg",
-    "https://te.legra.ph/file/d4bf46af570e1d72eabd5.jpg",
+    "https://telegra.ph/file/f14081e2b112e5cce9745.jpg",
+    "https://telegra.ph/file/0c6799dea0f5dd8ff12b5.jpg",
 ]
 
 
