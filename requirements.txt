@@ -3,6 +3,7 @@ anyio==4.1.0; python_full_version >= "3.6.2" and python_version >= "3.6"
 apscheduler==3.10.4
 asyncio==3.4.3
 telegraph
+future==0.18.3
 youtube-search-python
 gpytranslate
 shortuuid==1.0.11
