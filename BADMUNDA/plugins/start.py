@@ -140,7 +140,8 @@ async def start(c: BAD, m: Message):
 @BAD.on_callback_query(filters.regex("^start_back$"))
 async def start_back(_, q: CallbackQuery):
     try:
-        cpt = f""📝𝐅ree  𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ  𝐁oт❤️\n\n➻ 𝐇ᴇʏ {q.from_user.first_name}](http://t.me/{q.from_user.username})❤️\n➖➖➖➖➖➖➖➖➖➖\n➻ 24 × 7  𝐑ᴜɴ 𝐋ᴀɢ 𝐅ʀᴇᴇ ..\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗧agall 𝗢ɴᴇ 𝗕y 𝗢ɴe 𝐎...\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝐂ᴏᴜsᴛᴏᴍ 𝐖ᴇᴄʟᴏᴍᴇ \n➖➖➖➖➖➖➖➖➖➖\n➻ 𝐅ɪʟᴛᴇʀ 𝐌sɢ \n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗡o 𝗔ny 𝗔dѕ/𝗣roмo... ✨\n\n🌺 ᴀᴅᴅ ᴍᴇ & ɢɪᴠᴇ ᴍᴇ ᴀ ᴄʜᴀɴᴄᴇ ᴛᴏ ʜᴀɴᴅʟᴇ ʏᴏᴜʀ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴍᴇɴᴛ Qᴜᴇʀɪᴇꜱ.\n\n**[🦋𝐌у 𝐂υтє 𝐎ωиєя❤️](tg://settings)💞**"
+        cpt = f
+        "📝𝐅ree  𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ  𝐁oт❤️\n\n➻ 𝐇ᴇʏ {q.from_user.first_name}](http://t.me/{q.from_user.username})❤️\n➖➖➖➖➖➖➖➖➖➖\n➻ 24 × 7  𝐑ᴜɴ 𝐋ᴀɢ 𝐅ʀᴇᴇ ..\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗧agall 𝗢ɴᴇ 𝗕y 𝗢ɴe 𝐎...\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝐂ᴏᴜsᴛᴏᴍ 𝐖ᴇᴄʟᴏᴍᴇ \n➖➖➖➖➖➖➖➖➖➖\n➻ 𝐅ɪʟᴛᴇʀ 𝐌sɢ \n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗡o 𝗔ny 𝗔dѕ/𝗣roмo... ✨\n\n🌺 ᴀᴅᴅ ᴍᴇ & ɢɪᴠᴇ ᴍᴇ ᴀ ᴄʜᴀɴᴄᴇ ᴛᴏ ʜᴀɴᴅʟᴇ ʏᴏᴜʀ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴍᴇɴᴛ Qᴜᴇʀɪᴇꜱ.\n\n**[🦋𝐌у 𝐂υтє 𝐎ωиєя❤️](tg://settings)💞**"
 
         await q.edit_message_caption(
             caption=cpt,
