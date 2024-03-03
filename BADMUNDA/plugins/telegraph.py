@@ -66,7 +66,7 @@ async def create_telegraph_link(client, message):
         await client.send_photo(
             message.chat.id,
             photo=brightened_file_path,
-            caption=f"**Here is your Telegraph link with increased brightness:**\n\n{button_url}\n\n**Made by @{username}**",
+            caption=f"**Here is your Telegraph link with increased brightness:**\n\n{button_url}\n\n**Made by @{app.username}**",
             reply_markup=reply_markup,
         )
 
