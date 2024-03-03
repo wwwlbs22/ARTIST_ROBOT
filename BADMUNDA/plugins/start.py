@@ -106,9 +106,8 @@ async def start(c: BAD, m: Message):
                     return
                 
         try:
-            cpt = f"" 📝𝐅ree  𝐕c  𝐒ong  𝐏layer  𝐁oт❤️\n\n➻ 24 × 7 𝗥υn + 𝗟ᴀɢ 𝗙ʀᴇᴇ..\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗧agall 𝗢ɴe 𝗕y 𝗢ɴe...\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗜nvιтeall 𝗙or 𝗝oιn 𝗩c...\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗦ʜᴀʏʀɪ 𝗙ᴇᴀᴛᴜʀᴇ...\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗡o 𝗔ny 𝗔dѕ/𝗣roмo... ✨\n\n🌺 ᴀᴅᴅ ᴍᴇ & ɢɪᴠᴇ ᴍᴇ ᴀ ᴄʜᴀɴᴄᴇ ᴛᴏ ʜᴀɴᴅʟᴇ ʏᴏᴜʀ ᴍᴜꜱɪᴄ Qᴜᴇʀɪᴇꜱ.\n\n📡 𝐌𝐚𝐝𝐞 𝐁𝐲 ➪ [🦋𝐌у 𝐂υтє 𝐎ωиєя❤️](tg://settings) 💞"
-        
-         await m.reply_photo(
+            cpt = f"📝𝐅ree  𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ  𝐁oт❤️\n\n➻ 24 × 7  𝐑ᴜɴ 𝐋ᴀɢ 𝐅ʀᴇᴇ ..\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗧agall 𝗢ɴᴇ 𝗕y 𝗢ɴe 𝐎...\n➖➖➖➖➖➖➖➖➖➖\n➻ 𝐂ᴏᴜsᴛᴏᴍ 𝐖ᴇᴄʟᴏᴍᴇ \n➖➖➖➖➖➖➖➖➖➖\n➻ 𝐅ɪʟᴛᴇʀ 𝐌sɢ \n➖➖➖➖➖➖➖➖➖➖\n➻ 𝗡o 𝗔ny 𝗔dѕ/𝗣roмo... ✨\n\n🌺 ᴀᴅᴅ ᴍᴇ & ɢɪᴠᴇ ᴍᴇ ᴀ ᴄʜᴀɴᴄᴇ ᴛᴏ ʜᴀɴᴅʟᴇ ʏᴏᴜʀ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴍᴇɴᴛ Qᴜᴇʀɪᴇꜱ.\n\n**[🦋𝐌у 𝐂υтє 𝐎ωиєя❤️](tg://settings)💞**"
+                await m.reply_photo(
                 photo=str(choice(StartPic)),
                 caption=cpt,
                 reply_markup=(await gen_start_kb(m)),
