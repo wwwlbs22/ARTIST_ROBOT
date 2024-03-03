@@ -75,7 +75,7 @@ async def _whisper(_, inline_query):
     return results
 
 
-@app.on_callback_query(filters.regex(pattern=r"fdaywhisper_(.*)"))
+@BAD.on_callback_query(filters.regex(pattern=r"fdaywhisper_(.*)"))
 async def whispes_cb(_, query):
     data = query.data.split("_")
     from_user = int(data[1])
@@ -119,7 +119,7 @@ async def in_help():
     return answers
 
 
-@app.on_inline_query()
+@BAD.on_inline_query()
 async def bot_inline(_, inline_query):
     string = inline_query.query.lower()
     
