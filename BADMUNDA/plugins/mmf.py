@@ -16,10 +16,10 @@ async def mmf(_, message: Message):
 
     msg = await message.reply_text("**Memifying this image! ✊🏻**")
     text = message.text.split(None, 1)[1]
-    file = await BAD.download_media(reply_message)
+    file = await app.download_media(reply_message)
 
     meme = await drawText(file, text)
-    await BAD.send_document(chat_id, document=meme)
+    await app.send_document(chat_id, document=meme)
 
     await msg.delete()
 
