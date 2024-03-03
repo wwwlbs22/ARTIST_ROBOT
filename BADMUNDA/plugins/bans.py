@@ -11,7 +11,7 @@ from pyrogram.types import (CallbackQuery, ChatPrivileges,
 
 from BADMUNDA import LOGGER, MESSAGE_DUMP, OWNER_ID
 from BADMUNDA.bot_class import BAD
-from BADMUNDAsupports import get_support_staff
+from BADMUNDA.supports import get_support_staff
 from BADMUNDA.utils.caching import ADMIN_CACHE, admin_cache_reload
 from BADMUNDA.utils.custom_filters import command, restrict_filter
 from BADMUNDA.utils.extract_user import extract_user
