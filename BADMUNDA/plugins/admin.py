@@ -501,7 +501,7 @@ async def set_user_title(c: BAD, m: Message):
             reason = m.text.split(None, 1)[1]
     else:
         if len(m.text.sp
-               reason = m.text.split(None, 2)[2]
+    reason = m.text.split(None, 2)[2]
     try:
         user_id, _, _ = await extract_user(c, m)
     except Exception:
