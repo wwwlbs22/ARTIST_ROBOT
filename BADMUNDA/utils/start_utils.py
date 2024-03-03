@@ -44,12 +44,8 @@ async def gen_start_kb(q: Message or CallbackQuery):
             ],
             [
                 (" ɢʀᴏᴜᴘ🥀 ",
-                    f"https://t.me/THE_DRAMA_CLUB_01",
-                    "url",  
-                ),
-                (" sᴜᴘᴘᴏʀᴛ 💫 ",
                     f"https://t.me/ll_THE_BAD_BOT_ll",
-                    "url",
+                    "url",  
                 ),
                 (" ʀᴇᴘᴏ 🗡️ ",
                     f"https://github.com/Badhacker98?tab=repositories", 
