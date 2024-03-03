@@ -1,6 +1,6 @@
 from telegraph import upload_file
 from pyrogram import filters
-from Badbot import app
+from BADMUNDA.bot_class import BAD
 from pyrogram.types import InputMediaPhoto
 
 
