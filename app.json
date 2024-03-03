@@ -1,5 +1,5 @@
 {
-    "name": "Gojo_Satoru",
+    "name": "BAD_MUNDA",
     "description": "Gojo is a Telegram Group management bot made using Pyrogram and Python, which makes it modern and faster than most of the Telegram chat managers.",
     "logo" : "https://te.legra.ph/file/e25a563619c653328830d.jpg",
     "keywords": [
@@ -10,7 +10,7 @@
       "BAD",
       "Anime"
     ],
-    "repository": "https://github.com/badmunda98/BADMANEGMENT",
+    "repository": "https://github.com/Badhacker98/BadGroup_Bot",
     "success_url": "https://t.me/BAD_BBY_02_BOT",
     "env": {
       "BOT_TOKEN": {
@@ -21,22 +21,22 @@
       "API_ID": {
         "description": "Get API_ID from my.telegram.org, used for pyrogram base.",
         "required": true,
-        "value": ""
+        "value": "27383453"
       },
       "API_HASH": {
         "description": "Get API_HASH from my.telegram.org, used for pyrogram base.",
         "required": true,
-        "value": ""
+        "value": "4c246fb0c649477cc2e79b6a178ddfaa"
       },
       "DB_URI": {
         "description": "Your MongoDB connection string.",
         "required": true,
-        "value": ""
+        "value": "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
       },
       "DB_NAME": {
         "description": "Your MongoDB database name.",
         "required": false,
-        "value": ""
+        "value": "BADMUNDA"
       },
       "OWNER_ID": {
         "description": "Your user ID as an integer.",
@@ -119,4 +119,4 @@
       }
     ]
   }
-  
+
