@@ -4,6 +4,7 @@ apscheduler==3.10.4
 asyncio==3.4.3
 telegraph
 gpytranslate
+shortuuid==1.0.11
 python-telegram-bot==20.7
 beautifulsoup4==4.12.2; python_full_version >= "3.6"
 cachetools==5.2.0; python_version >= "3.7" and python_version < "4.0"
