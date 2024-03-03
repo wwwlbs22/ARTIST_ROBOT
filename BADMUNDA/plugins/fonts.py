@@ -1,10 +1,10 @@
 from pyrogram import  filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DAXXMUSIC.utils.daxx_font import Fonts
-from DAXXMUSIC import app
+from BADMUNDA.sukh.bad_font import Fonts
+from BADMUNDA.bot_class import BAD
 
-@app.on_message(filters.command(["font", "fonts"]))
+@BAD.on_message(filters.command(["font", "fonts"]))
 async def style_buttons(c, m, cb=False):
     text = m.text.split(' ',1)[1]
     buttons = [
@@ -54,7 +54,7 @@ async def style_buttons(c, m, cb=False):
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
 
 
-@app.on_callback_query(filters.regex("^nxt"))
+@BAD.on_callback_query(filters.regex("^nxt"))
 async def nxt(c, m):
     if m.data == "nxt":
         buttons = [
@@ -104,7 +104,7 @@ async def nxt(c, m):
         await style_buttons(c, m, cb=True)
 
 
-@app.on_callback_query(filters.regex("^style"))
+@BAD.on_callback_query(filters.regex("^style"))
 async def style(c, m):
     await m.answer()
     cmd,style = m.data.split('+')
