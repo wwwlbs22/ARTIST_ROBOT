@@ -4,7 +4,7 @@ from BADMUNDA.bot_class import BAD
 from pyrogram.types import InputMediaPhoto
 
 
-@app.on_message(filters.command(["tgm" , "link"]))
+@BAD.on_message(filters.command(["tgm" , "link"]))
 def ul(_, message):
     reply = message.reply_to_message
     if reply.media:
