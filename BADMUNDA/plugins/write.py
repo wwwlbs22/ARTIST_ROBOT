@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from config import  BOT_USERNAME
+from BADMUNDA.bot_class import BAD,  BOT_USERNAME
 from datetime import datetime
-from DAXXMUSIC import app as app
+from BADMUNDA.bot_class import BAD
 import requests
 
-@app.on_message(filters.command("write"))
+@BAD.on_message(filters.command("write"))
 async def handwrite(_, message: Message):
     if message.reply_to_message:
         text = message.reply_to_message.text
@@ -17,7 +17,7 @@ async def handwrite(_, message: Message):
 
     caption = f"""
 sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
-✨ ᴡʀɪᴛᴛᴇɴ ʙʏ : [𝐘ᴜᴍɪᴋᴏᴏ](https://t.me/{BOT_USERNAME})
+✨ ᴡʀɪᴛᴛᴇɴ ʙʏ : [⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸](https://t.me/II_BAD_MUNDA_II)
 🥀 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
 """
     await m.delete()
@@ -35,7 +35,7 @@ help = """
 
 #----------
 
-@app.on_message(filters.command("day"))
+@BAD.on_message(filters.command("day"))
 def date_to_day_command(client: Client, message: Message):
     try:
         # Extract the date from the command message......
