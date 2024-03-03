@@ -32,54 +32,37 @@ async def gen_cmds_kb(m: Message or CallbackQuery):
 
     return [kb[i : i + 3] for i in range(0, len(kb), 3)]
 
-
 async def gen_start_kb(q: Message or CallbackQuery):
     """Generate keyboard with start menu options."""
     return ikb(
       [
             [
-                ("🙈𝐀∂∂ 𝐌є🙈",
+                ("•─╼⃝𖠁𝐀ᴅᴅ ◈ 𝐌ᴇ ◈ 𝐁ᴀʙʏ𖠁⃝╾─•",
                     f"https://t.me/{Config.BOT_USERNAME}?startgroup=new",
-                    "url",
-                ),
-                ("🎵 𝐌υѕι¢ 𝐁σт 🎵",
-                    f"https://t.me/BAD_BBY_01_BOT",
                     "url",
                 ),
             ],
             [
-                ("👻 𝐌αиαgємєит 𝐁σт 👻",
-                    f"https://t.me/BAD_BBY_02_BOT",
+                (" ɢʀᴏᴜᴘ🥀 ",
+                    f"https://t.me/THE_DRAMA_CLUB_01",
                     "url",  
                 ),
-                ("😈 𝐒тяιиg 𝐁σт 😈",
-                    f"https://t.me/BAD_STRING_SESSION_BOT",
+                (" sᴜᴘᴘᴏʀᴛ 💫 ",
+                    f"https://t.me/ll_THE_BAD_BOT_ll",
+                    "url",
+                ),
+                (" ʀᴇᴘᴏ 🗡️ ",
+                    f"https://github.com/Badhacker98?tab=repositories", 
                     "url",
                 )
             ],
             [
-                ("☠ 𝐒тяιиg 𝐇α¢к 𝐁σт ☠",
-                    f"https://t.me/BAD_STRING_SESSION_HACK_BOT", 
-                    "url",
-                ),
-                ("🌲 𝐆яσυρ 🌲",
-                    f"https://t.me/THE_DRAMA_CLUB_01", 
-                    "url",
-                ),
-            ],
-            [
-                ("🦋 𝐂нαииєℓ 🦋",
-                    f"https://t.me/ABT_BAD", 
-                    "url",  
-                ),
-                ("😎 𝐔ѕтα∂  𝐉ι 😎",
-                    f"https://t.me/II_BAD_MUNDA_II",
-                    "url",
-                ),
-            ],
+                (
+                    " ۞ ғᴇᴀᴛᴜʀᴇs ۞ ", "commands"
+                )
+            ]
         ],
     )
-    
 
 async def get_private_note(c: BAD, m: Message, help_option: str):
     """Get the note in pm of user, with parsing enabled."""
