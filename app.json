@@ -119,6 +119,9 @@
       {
         "url":"https://github.com/badmunda98/heroku-buildpack-ffmpeg-latest1"
       },
+        {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        },
       {
         "url": "heroku/python"
       }
